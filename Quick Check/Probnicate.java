@@ -1,0 +1,1 @@
+public abstract interface Probnicate { public void twiddle(String s); }
