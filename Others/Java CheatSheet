@@ -1,0 +1,37 @@
+1.An applet is a Java program that runs in a Web browser. An applet can be a fully functional Java application because it has the entire Java API at its disposal.
+
+2..Applet do not use main() because when applet is loaded it automatically calls certain methods of applet class to start and executes the applet code. and applet have its own life cycle.
+
+3.Life Cycle of an Applet - init-start-stop-destroy-paint
+
+4.Tamper means any interference to the system which causes damage or any unauthorised access. As in java all are encapsulated inside classes which provides restriction to unauthorised access , which makes the system tamper-proof or tamper-free.
+
+5.The Portable Operating System Interface (POSIX) is a family of standards specified by the IEEE Computer Society for maintaining compatibility between operating systems.
+
+6.	Modifier    | Class | Package | Subclass | World
+				|		|	      |Inherited |
+	public      |  Y    |    Y    |    Y     |   Y   ----- All
+	protected   |  Y    |    Y    |    Y     |   N   ----- Whole package and inherited classes from that protected class of other package
+	no modifier |  Y    |    Y    |    N     |   N   ----- Same Package(Whole) only 
+	private     |  Y    |    N    |    N     |   N   ----- Only That class
+	privet prot |  Y    |    N    |    Y     |   N   ----- That class and all other inherited class from that private protected class 
+
+7.Access Modifier of the overriding method (method of subclass) cannot be more restrictive than the overridden method of parent class. 
+
+8. This Most recent value
+
+9. Static for single value
+
+10. Super for parent class method/constructor invocation
+
+11. Final means no change in value else error....final blank define in constructor only
+
+12.A static final variable that is not initialized during declaration can only be initialized in static block. 
+
+13. Difference between private class and final class?
+
+14. Static means class level.
+
+15. Aggregation to use code again and reduce the length of code (Code ReUsability)
+
+16. POST no data while sending the form & GET to show the data
