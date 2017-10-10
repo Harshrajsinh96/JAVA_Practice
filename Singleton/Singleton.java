@@ -1,0 +1,16 @@
+public class Singleton {
+
+   private static Singleton singleton = new Singleton( );
+
+   private Singleton() { }
+
+   public static Singleton getInstance( ) {
+      return singleton;
+   }
+
+   protected static void demoMethod( ) {
+      System.out.println("Demo method called");
+    /* protected static void demoMethod2( ) {
+          System.out.println("Demo method *2* called");*/
+   }
+}

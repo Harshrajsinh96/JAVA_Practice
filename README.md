@@ -4,4 +4,5 @@
 
 -> Client-Sever Socket Programming <br>
 -> Database Connections <br>
+-> Singleton Class <br>
 -> All mix files
